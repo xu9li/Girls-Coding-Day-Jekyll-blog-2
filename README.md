@@ -25,7 +25,7 @@
 ![2021-03-07-u9fidt-3](https://cdn.jsdelivr.net/gh/sddtc/upic-cloud@main/images/2021/2021-03-07-u9fidt-3.png)
 
 最终效果如下:  
-![2021-03-07-Pwp7I3-ScreenShot2021-03-07at11.28.38AM](https://cdn.jsdelivr.net/gh/sddtc/upic-cloud@main/images/2021/2021-03-07-Pwp7I3-Screen Shot 2021-03-07 at 11.28.38 AM.png)  
+![2021-03-07-3vU9JS-12](https://cdn.jsdelivr.net/gh/sddtc/upic-cloud@main/images/2021/2021-03-07-3vU9JS-12.png)  
 
 ### 第三步：搭建 GitHub Pages
 
@@ -61,7 +61,7 @@
 找到仓库名字：    
 ![2021-03-07-7GHTvd-10](https://cdn.jsdelivr.net/gh/sddtc/upic-cloud@main/images/2021/2021-03-07-7GHTvd-10.png)
 修改值:  
-`baseurl: my-first-blog`
+`baseurl: /my-first-blog`
 
 2. 修改个人信息
 
