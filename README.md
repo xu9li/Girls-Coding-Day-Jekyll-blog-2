@@ -15,40 +15,65 @@
 
 ### 第二步：Use this template
 
-登录到 GitHub 之后，点击这里进入仓库 [girls-coding-day](https://github.com/CodingGirlsClub/Girls-Coding-Day-Story-2)，点击右上角的 `Use this template` 按钮。
+登录到 GitHub 之后，点击这里进入仓库 [girls-coding-day](https://github.com/CodingGirlsClub/Girls-Coding-Day-Jekyll-blog-2)，点击右上角的 `Use this template` 按钮。  
+![2021-03-07-qdaVeD-1](https://cdn.jsdelivr.net/gh/sddtc/upic-cloud@main/images/2021/2021-03-07-qdaVeD-1.png)   
+
+之后进入到新页面  
+![2021-03-07-g1qfDd-2](https://cdn.jsdelivr.net/gh/sddtc/upic-cloud@main/images/2021/2021-03-07-g1qfDd-2.png)  
+
+填写相应的信息，并点击 `Create repositorye from template` 按钮    
+![2021-03-07-u9fidt-3](https://cdn.jsdelivr.net/gh/sddtc/upic-cloud@main/images/2021/2021-03-07-u9fidt-3.png)
+
+最终效果如下:  
+![2021-03-07-Pwp7I3-ScreenShot2021-03-07at11.28.38AM](https://cdn.jsdelivr.net/gh/sddtc/upic-cloud@main/images/2021/2021-03-07-Pwp7I3-Screen Shot 2021-03-07 at 11.28.38 AM.png)  
 
 ### 第三步：搭建 GitHub Pages
 
-首先进入此仓库 Settings 页面：
+首先进入此仓库 Settings 页面：  
+![2021-03-07-dRO2gD-5](https://cdn.jsdelivr.net/gh/sddtc/upic-cloud@main/images/2021/2021-03-07-dRO2gD-5.png)  
 
+找到 GitHub Pages 设置区域, 点击 `Source` 下面的下拉框，选择 `main` 分支之后，点击 `Save` 按钮:  
+![2021-03-07-XkwQNp-7](https://cdn.jsdelivr.net/gh/sddtc/upic-cloud@main/images/2021/2021-03-07-XkwQNp-7.png)
 
-找到 GitHub Pages 设置区域, 点击 Source 下面的下拉框，选择`main`分支之后，点击 Save 按钮。
+稍后在配置完毕之后, 点击链接就可以访问你的 GitHub Page 静态网站啦！
 
-
-然后会出现 URL，点击该链接就可以访问你的 GitHub Page 静态网站啦！
-
-可能由于 GitHub Pages 有延迟和缓存的问题，你可以等一会儿访问，或者在这个 URL 地址后面加上`index.html`就可以预览啦！
-
+可能由于 `GitHub Pages` 需要生成页面等操作, 有延迟和缓存的问题，你可以等一会儿访问:  
+在编译并部署网站:  
+![2021-03-07-GN5iWF-8](https://cdn.jsdelivr.net/gh/sddtc/upic-cloud@main/images/2021/2021-03-07-GN5iWF-8.png)  
+编译成功可以访问网站:  
+![2021-03-07-drbrAh-9](https://cdn.jsdelivr.net/gh/sddtc/upic-cloud@main/images/2021/2021-03-07-drbrAh-9.png)
+  
 ## 编辑你的静态页面
 
 ### 第一步：修改网站的主题和标题
 
-你可以在 `_config.yml` 文件中修改网站主题和副标题等一些信息。
+你可以在 [`_config.yml`](_config.yml) 文件中修改网站主题和副标题等一些信息。  
+
+![2021-03-07-BHupX4-geQAL7](https://cdn.jsdelivr.net/gh/sddtc/upic-cloud@main/images/2021/2021-03-07-BHupX4-geQAL7.png)
 
 > **注意⚠️**
 > 1. `_config.yml` 文件中使用的都是英文标点，请不要使用中文标点；
 > 2. 冒号后面有一个空格；
 > 请严格遵守上述要求，否则网站配置会不成功，导致无法访问；
 
-```bash
-baseurl: /Girls-Coding-Day-Jekyll-blog-2  # "/" + 仓库的名字. 资源文件的路径组成部分
-title: "Sddtc's web" # 网页的标题
-name: "Sddtc" # 个人昵称
-description: "子标题" # 个人介绍副标题
-paginate: 9 # 分页配置 - 每页文章数量
+1. 修改 `baseurl`. `baseurl` 是 "/" + 仓库的名字. 是资源文件的路径组成部分  
+将 `baseurl: /Girls-Coding-Day-Jekyll-blog-2` 修改为 `baseurl: 你的仓库名字`  
+找到仓库名字：    
+![2021-03-07-7GHTvd-10](https://cdn.jsdelivr.net/gh/sddtc/upic-cloud@main/images/2021/2021-03-07-7GHTvd-10.png)
+修改值:  
+`baseurl: my-first-blog`
+
+2. 修改个人信息
+
+```yml
+title: "Sddtc's web"
+name: "Sddtc"
+description: "子标题"
+paginate: 9
 ```
 
-找到该文件，点击进入，文件的右上角有一个铅笔字样的编辑按钮，点击编辑按钮可以进行编辑。编辑完成后，点击下方的 `Commit Change` 按钮保存文件。文件保存之后，等几分钟刷新你网站的页面，你就可以看到效果啦！
+找到该文件，点击进入，文件的右上角有一个铅笔字样的编辑按钮，点击编辑按钮可以进行编辑。编辑完成后，点击下方的 `Commit Change` 按钮保存文件。文件保存之后，等几分钟刷新你网站的页面，你就可以看到效果啦！  
+![2021-03-07-O3itCS-11](https://cdn.jsdelivr.net/gh/sddtc/upic-cloud@main/images/2021/2021-03-07-O3itCS-11.png)
 
 ### 第二步：创建博客
 
@@ -74,7 +99,6 @@ layout: post
 title:  "记一次环球影城旅程！"
 image: assets/images/5.jpg
 ---
-
 ```
 
 将你准备好的图片放到 `assets/images` 文件夹下面，更新 `image` 为 `assets/images/图片名称`。
