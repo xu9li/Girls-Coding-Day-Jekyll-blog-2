@@ -17,6 +17,7 @@
   * [更改文章](#更改文章)
   * [删除文章](#删除文章)
 * [小知识](#小知识)
+  * [上传图片](#上传图片)
   * [什么是 Jekyll ?](#什么是-jekyll-)
 
 # 搭建网站
@@ -110,7 +111,8 @@ description: "记录我的生活，学习和工作感悟 🥳"
 ![create-pr-success.png](docs/create-pr-success.png)
 
 # 🎉 恭喜你 🎉 :smirk: 到这里, 你就可以通过网址来访问自己的网站啦!!!  
-🥳🥳🥳 网站地址可以在这里找到 [点击-save-按钮之后会出现相应的博客访问地址](#3-点击-save-按钮之后会出现相应的博客访问地址)
+🥳🥳🥳 网站地址可以在这里找到 [点击-save-按钮之后会出现相应的博客访问地址](#3-点击-save-按钮之后会出现相应的博客访问地址)  
+
 :warning: _可能由于 GitHub Pages 有延迟和缓存的问题，你需要等一会儿访问, 3~5 分钟不等_
 
 # 发布, 更改, 删除文章
@@ -146,12 +148,13 @@ image: assets/images/2.jpg
 其中:  
 1. `layout: post` 不需要改变  
 2. `title` 的值可以替换为其它内容, 标题的值必须用双引号 `"` 包住  
-3. `image` 的内容来自于 [assets/images](assets/images) 文件夹下, 你可以上传本地. 详细方法见上传图片  
+3. `image` 的内容来自于 [assets/images](assets/images) 文件夹下, 你可以上传本地. 详细方法见 [上传图片](#上传图片)  
 
 ![create-post-success.png](docs/create-post-success.png)
 
-添加文章成功之后, 别忘了访问网站查看效果 :raised_hands:    
-🥳🥳🥳 网站地址可以在这里找到 [点击-save-按钮之后会出现相应的博客访问地址](#3-点击-save-按钮之后会出现相应的博客访问地址)
+添加文章成功之后, 别忘了访问网站查看效果 :raised_hands:  
+🥳🥳🥳 网站地址可以在这里找到 [点击-save-按钮之后会出现相应的博客访问地址](#3-点击-save-按钮之后会出现相应的博客访问地址)  
+
 :warning: _可能由于 GitHub Pages 有延迟和缓存的问题，你需要等一会儿访问, 3~5 分钟不等_
 
 ## 更改文章
@@ -160,9 +163,10 @@ image: assets/images/2.jpg
 
 ![update-post-success.png](docs/update-post-success.png)
 
-更改文章成功之后, 别忘了访问网站查看效果 :raised_hands:    
-🥳🥳🥳 网站地址可以在这里找到 [点击-save-按钮之后会出现相应的博客访问地址](#3-点击-save-按钮之后会出现相应的博客访问地址)
-:warning: _可能由于 GitHub Pages 有延迟和缓存的问题，你需要等一会儿访问, 3~5 分钟不等_
+更改文章成功之后, 别忘了访问网站查看效果 :raised_hands:  
+🥳🥳🥳 网站地址可以在这里找到 [点击-save-按钮之后会出现相应的博客访问地址](#3-点击-save-按钮之后会出现相应的博客访问地址)  
+
+:warning: _可能由于 GitHub Pages 有延迟和缓存的问题，你需要等一会儿访问, 3~5 分钟不等_  
 
 ## 删除文章  
 ### 点击 垃圾箱 进行文章的删除  
@@ -171,11 +175,34 @@ image: assets/images/2.jpg
 ### 填写相应信息, 点击 `Commit changes` 按钮  
 ![delete-post-success.png](docs/delete-post-success.png)
 
-删除文章成功之后, 别忘了访问网站查看效果 :raised_hands:    
+删除文章成功之后, 别忘了访问网站查看效果 :raised_hands:  
 🥳🥳🥳 网站地址可以在这里找到 [点击-save-按钮之后会出现相应的博客访问地址](#3-点击-save-按钮之后会出现相应的博客访问地址)
+  
 :warning: _可能由于 GitHub Pages 有延迟和缓存的问题，你需要等一会儿访问, 3~5 分钟不等_
 
 # 小知识
+## 上传图片  
+### 1. 打开图片目录, 进入到 [`assets/images`](assets/images) 文件夹下
+![click-assets.png](docs/click-assets.png)
+![click-images.png](docs/click-images.png)  
+
+### 2. 点击 `Add file` 按钮, 选择 `Upload files` 按钮  
+![upload-image.png](docs/upload-image.png)  
+
+### 3. 选择你电脑本机需要上传的图片  
+![choose-image.png](docs/choose-image.png)  
+
+:warning: _图片需要提前下载到本地, 图片名称**不要**包含空格_  
+
+### 4. 填写提交信息, 点击 `Commit changes` 按钮  
+![upload-image-success.png](docs/upload-image-success.png)  
+
+### 5. 等待图片上传  
+![loading.png](docs/loading.png)
+
+### 6. 查看图片结果  
+![check-cat.png](docs/check-cat.png)
+
 ## 什么是 Jekyll ? 
 Jekyll 是一个简单的博客形态的静态站点生成器。它有一个模版目录，其中包含原始文本格式的文档，通过一个转换器（如 Markdown）和我们的 Liquid 渲染器转化成一个完整的可发布的静态网站，你可以发布在任何你喜爱的服务器上。Jekyll 也可以运行在 `GitHub Page` 上，也就是说，你可以使用 GitHub 的服务来搭建你的项目页面、博客或者网站，而且是完全免费的。  
 我们的网站就是基于 Jekyll 并运行在 `GitHub Page` :) 
