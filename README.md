@@ -3,20 +3,21 @@
 官网：http://codingirlsclub.com/about
 
 # 学员手册
-* 搭建网站
+* [搭建网站](#搭建网站)
   * 网站效果预览
   * [注册 Github 账号](#注册-github-账号)
   * [使用博客模版来创建属于自己的 git 仓库](#使用博客模版来创建属于自己的-git-仓库)
   * [配置 GitHub Pages](#配置-github-pages)
-* 自定义网站内容
-  * 修改 baseurl
-  * 修改网站的主题和标题
-  * 提交更改合并到 git 仓库的主分支
-* 发布文章
+* [自定义网站内容](#自定义网站内容)
+  * [修改 baseurl](#修改-baseurl)
+  * [修改网站的主题和标题](#修改网站的主题和标题)
+  * [提交更改合并到 git 仓库的主分支](#提交更改合并到-git-仓库的主分支)
+* 发布, 更新, 删除文章
   * 发布新文章
-  * 合并到 git 仓库的主分支
-* 小知识
-  * 什么是 Jekyll ?
+  * 更新文章
+  * 删除文章
+* [小知识](#小知识)
+  * [什么是 Jekyll ?](#什么是-jekyll-)
 
 # 搭建网站
 ## 网站效果预览
@@ -28,32 +29,31 @@ TBD
 如果你已经有 GitHub 账户，请跳过这一步！  
 
 ## 使用博客模版来创建属于自己的 git 仓库
-1. 登录到 GitHub 之后，点击 [Girls-Coding-Day-Jekyll-blog-2](https://github.com/CodingGirlsClub/Girls-Coding-Day-Jekyll-blog-2) 进入仓库, 点击右上角的 `Use this template` 按钮。  
+### 1. 登录到 GitHub 之后，点击 [Girls-Coding-Day-Jekyll-blog-2](https://github.com/CodingGirlsClub/Girls-Coding-Day-Jekyll-blog-2) 进入仓库, 点击右上角的 `Use this template` 按钮。  
 ![use-this-template.png](docs/use-this-template.png)
 
-2. 填写仓库名称, 仓库简介, 选择仓库类型为 Public, 勾选 Include all branches. 点击 `Create repositorye from template` 按钮  
+### 2. 填写仓库名称, 仓库简介, 选择仓库类型为 Public, 勾选 Include all branches. 点击 `Create repositorye from template` 按钮  
 ![use-template-save.png](docs/use-template-save.png)
 
-3. 仓库创建成功
+### 3. 仓库创建成功
 ![use-template-success.png](docs/use-template-success.png)
 
 ## 配置 GitHub Pages
-1. 找到 `Settings` 选项, 点击 `Settings`
+### 1. 找到 `Settings` 选项, 点击 `Settings`
 ![config-git-page-settings.png](docs/config-git-page-settings.png)
 
-2. 将 `Settigns` 页面下拉, 找到 `GitHub Pages` 设置区域. 点击 `Source` 下面的下拉框，选择 `main` 分支之后，点击 `Save` 按钮:  
+### 2. 将 `Settigns` 页面下拉, 找到 `GitHub Pages` 设置区域. 点击 `Source` 下面的下拉框，选择 `main` 分支之后，点击 `Save` 按钮:  
 ![config-git-pages-choose-branch.png](docs/config-git-pages-choose-branch.png)
 
-3. 点击 `Save` 按钮之后会出现相应的博客访问地址.  
-
+### 3. 点击 `Save` 按钮之后会出现相应的博客访问地址.  
 :warning: _地址还不可访问, 因此打开页面会出现 404 (找不到该页面)_
   
 ![save-git-pages-success.png](docs/save-git-pages-success.png)
 
 # 自定义网站内容
-1. 点击并打开 [`_config.yml`](_config.yml) 文件  
+### 1. 点击并打开 [`_config.yml`](_config.yml) 文件  
 ![start-to-edit-config.png](docs/start-to-edit-config.png)
-2. 点击 铅笔 按钮进入编辑模式  
+### 2. 点击 铅笔 按钮进入编辑模式  
 ![edit-config-yml.png](docs/edit-config-yml.png)
 
 ## 修改 baseurl
@@ -103,16 +103,22 @@ description: "记录我的生活，学习和工作感悟 🥳"
 > 请严格遵守上述要求, 否则网站配置会不成功, 导致无法访问;
 
 ## 提交更改合并到 git 仓库的主分支
-1. 下拉网页看到提交信息填写部分, 填写标题和提交的简单介绍信息
+### 1. 下拉网页看到提交信息填写部分, 填写标题和提交的简单介绍信息
 ![create-pr.png](docs/create-pr.png)
 
-2. 点击 `Commit changes` 按钮  
+### 2. 填写完整相应的信息, 点击 `Commit changes` 按钮  
 ![create-pr-success.png](docs/create-pr-success.png)
 
-# 发布文章
+# 发布, 更新, 删除文章
 ## 发布新文章
+### 1. 点击 [`_post`](_posts) 文件夹进入文章列表页面  
+
 
 ## 合并到 git 仓库的主分支
+
+## 更改文章
+
+## 删除文章
 
 # 小知识
 ## 什么是 Jekyll ? 
