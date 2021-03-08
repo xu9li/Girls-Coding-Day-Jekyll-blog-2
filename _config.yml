@@ -1,13 +1,13 @@
 # "/" + 仓库的名字. 资源文件的路径组成部分
-baseurl: /Girls-Coding-Day-Jekyll-blog-2
+baseurl: /my-first-blog
 
 # 网页的标题
-title: "Sddtc's web"
+title: "我的博客"
 
 # 个人昵称
-name: "Sddtc"
+name: "Hui Chang"
 # 个人介绍副标题
-description: "子标题"
+description: "记录我的生活"
 
 # 分页配置
 # 每页文章数量
