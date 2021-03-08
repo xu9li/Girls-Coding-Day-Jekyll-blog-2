@@ -2,12 +2,12 @@
 baseurl: /Girls-Coding-Day-Jekyll-blog-2
 
 # 网页的标题
-title: "我的博客"
+title: "Girls Coding Day"
 
 # 个人昵称
-name: "Hui Chang"
+name: "Girls Coding Day"
 # 个人介绍副标题
-description: "记录我的生活"
+description: "架起女性与编程的桥梁"
 
 # 分页配置
 # 每页文章数量

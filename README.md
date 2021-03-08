@@ -2,11 +2,12 @@
 程序媛汇 Coding Girls Club (CGC)诞生于 2016 年 6 月 1 日，是一家为女性数字化赋能为己任的社会企业。CGC 通过编程科普、启蒙工作坊、职业培训等线上线下结合的形式，鼓励更多女性体验编程并进入 STEM 领域。至今，CGC 已在全国 10 个城市举办了超过 20 场编程城市活动，并联合全国 17 所高校举办“一日编程”活动，累计参与的学员近 4000 人，得到了来自中国日报、环球时报、CCTV 等媒体的报道关注。2018 年，CGC 入选由联合国开发计划署发起的“科技与慈善”项目案例集，2019 年成为共青团中央"全国青年社会组织「伙伴计划」"获奖项目。CGC 聚集着一群正直、善良且富有才华的小伙伴，致力建构互联互助的信息学习平台，为女性和女性自我提升数字化赋能，我们相信数字赋能女性，多元改变世界。
 官网：http://codingirlsclub.com/about
 
+# 学员手册
 * 搭建网站
   * 网站效果预览
-  * 注册 Github 账号
-  * 使用博客模版来创建属于自己的 git 仓库
-  * 配置 GitHub Pages
+  * [注册 Github 账号](#注册-github-账号)
+  * [使用博客模版来创建属于自己的 git 仓库](#使用博客模版来创建属于自己的-git-仓库)
+  * [配置 GitHub Pages](#配置-github-pages)
 * 自定义网站内容
   * 修改 baseurl
   * 修改网站的主题和标题
@@ -44,15 +45,69 @@ TBD
 ![config-git-pages-choose-branch.png](docs/config-git-pages-choose-branch.png)
 
 3. 点击 `Save` 按钮之后会出现相应的博客访问地址.  
-:warning: 地址还不可访问, 因此打开页面会出现 404 (找不到该页面)  
+
+:warning: _地址还不可访问, 因此打开页面会出现 404 (找不到该页面)_
+  
 ![save-git-pages-success.png](docs/save-git-pages-success.png)
 
 # 自定义网站内容
+1. 点击并打开 [`_config.yml`](_config.yml) 文件  
+![start-to-edit-config.png](docs/start-to-edit-config.png)
+2. 点击 铅笔 按钮进入编辑模式  
+![edit-config-yml.png](docs/edit-config-yml.png)
+
 ## 修改 baseurl
+将默认 `_config.yml` 中:  
+
+```
+# "/" + 仓库的名字. 资源文件的路径组成部分
+baseurl: /Girls-Coding-Day-Jekyll-blog-2
+```
+
+修改为自己的仓库名称, 例如你的仓库名称为 `my-first-blog`:  
+:warning: _可以在 [使用博客模版来创建属于自己的-git-仓库](#使用博客模版来创建属于自己的-git-仓库) 的第二步找到你的仓库名称_ 😉
+
+```
+# "/" + 仓库的名字. 资源文件的路径组成部分
+baseurl: /my-first-blog
+```
 
 ## 修改网站的主题和标题
+修改 `_config.yml` 中 `title`, `name`, `description` 的值, 将其替换为你需要的值:  
+
+```
+# 网页的标题
+title: "Girls Coding Day"
+
+# 个人昵称
+name: "Girls Coding Day"
+# 个人介绍副标题
+description: "架起女性与编程的桥梁"
+```
+
+例如:  
+
+```
+# 网页的标题
+title: "xx 的小世界"
+
+# 个人昵称
+name: "阿白"
+# 个人介绍副标题
+description: "记录我的生活，学习和工作感悟 🥳"
+```
+
+> **注意事项 ⚠️**
+> 1. `_config.yml` 文件中使用的都是英文标点, 请不要使用中文标点;
+> 2. 冒号后面有一个空格;
+> 请严格遵守上述要求, 否则网站配置会不成功, 导致无法访问;
 
 ## 提交更改合并到 git 仓库的主分支
+1. 下拉网页看到提交信息填写部分, 填写标题和提交的简单介绍信息
+![create-pr.png](docs/create-pr.png)
+
+2. 点击 `Commit changes` 按钮  
+![create-pr-success.png](docs/create-pr-success.png)
 
 # 发布文章
 ## 发布新文章
