@@ -62,7 +62,7 @@ TBD
 
 ```
 # "/" + 仓库的名字. 资源文件的路径组成部分
-baseurl: /Girls-Coding-Day-Jekyll-blog-2
+baseurl: "/Girls-Coding-Day-Jekyll-blog-2"
 ```
 
 修改为自己的仓库名称, 例如你的仓库名称为 `my-first-blog`:  
@@ -70,7 +70,7 @@ baseurl: /Girls-Coding-Day-Jekyll-blog-2
 
 ```
 # "/" + 仓库的名字. 资源文件的路径组成部分
-baseurl: /my-first-blog
+baseurl: "/my-first-blog"
 ```
 
 ## 修改网站的主题和标题
