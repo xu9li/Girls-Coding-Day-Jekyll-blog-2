@@ -180,13 +180,25 @@ image: assets/images/201.jpg
 > **文章内容 注意事项 ⚠️**  
 > 在编辑页面输入文章内容，需要符合如下格式:  
 > - 文章必须以
-```
+```yml
 ---
 layout: post
-title:  "标题内容"
-image: assets/images/2.jpg
+title:  "道码旦・由来"
+image: assets/images/001.jpg
+featured: true
 ---
-``` 
+```
+
+> 或者   
+
+```yml
+---
+layout: post
+title:  "知道你窝在家想找点事，一块钱来开黑学编程!"
+image: assets/images/201.jpg
+---
+```
+
 > 开头
 
 其中:  
