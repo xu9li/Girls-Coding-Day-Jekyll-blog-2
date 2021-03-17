@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "人哪，总要做一些“无意义”的事情"
-image: "assets/images/301.jpg"
+image: "assets/images/333.jpg"
 featured: true
 ---
 

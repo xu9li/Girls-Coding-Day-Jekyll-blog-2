@@ -5,8 +5,8 @@ image: "assets/images/500.jpg"
 featured: true
 ---
 
-**文** | **苏倩文**  
-**图** | **Coding Girls Club笛**  
+**文: 苏倩文**  
+**图: Coding Girls Club笛**  
 
 > 哇！好有趣的一群灵魂！
 >         --- 这是来自2017成都站的小姐姐的感想
