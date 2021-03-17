@@ -1,7 +1,7 @@
 ---
--layout: post
--title:  "人大人首个女性编程日：收获与快乐同行"
--image: "assets/images/001.jpg"
+layout: post
+title:  "人大人首个女性编程日：收获与快乐同行"
+image: "assets/images/001.jpg"
 ---
 
 **文字&图片：单诗雅**  

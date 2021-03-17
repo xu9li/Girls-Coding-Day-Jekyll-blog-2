@@ -1,7 +1,7 @@
 ---
--layout: post
--title:  "中传站回访 | 牵头人与志愿者——关于她们"
--image: "assets/images/201.jpg"
+layout: post
+title:  "中传站回访 | 牵头人与志愿者——关于她们"
+image: "assets/images/201.jpg"
 ---
 
 **撰稿：柳依笛**  

@@ -1,12 +1,12 @@
 ---
--layout: post
--title:  "人哪，总要做一些“无意义”的事情"
--image: "assets/images/301.jpg"
--featured: true
+layout: post
+title:  "人哪，总要做一些“无意义”的事情"
+image: "assets/images/301.jpg"
+featured: true
 ---
 
-**文 | 刘司琪**  
-**图 | Coding Girls Club**
+**文:** **刘司琪**  
+**图:** **Coding Girls Club**
 
 
 _菌菌有话说：_

@@ -1,7 +1,7 @@
 ---
--layout: post
--title:  "北京场回顾 | 我们的故事才刚刚开始"
--image: "assets/images/400.jpg"
+layout: post
+title:  "北京场回顾 | 我们的故事才刚刚开始"
+image: "assets/images/400.jpg"
 ---
 
 爆竹一声春梦晓  
