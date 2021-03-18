@@ -1,7 +1,7 @@
-/* 
-Template Name: Mediumish 
-Copyright: Sal, WowThemes.net, https://www.wowthemes.net 
-License: https://www.wowthemes.net/freebies-license/ 
+/*
+Template Name: Mediumish
+Copyright: Sal, WowThemes.net, https://www.wowthemes.net
+License: https://www.wowthemes.net/freebies-license/
 */
 @media screen and (min-width:1500px) {
     html { font-size:18px; } /* Increase the font size on higher resolutions */
@@ -86,6 +86,11 @@ section.recent-posts {
 .article-post ul ul {
     list-style: disc;
     margin-bottom: 0rem;
+}
+
+iframe {
+    width: 800px;
+    height: 600px;
 }
 
 @media (min-width:576px) {
