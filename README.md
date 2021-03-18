@@ -27,7 +27,7 @@
 # 搭建网站
 ## 网站效果预览
 
-![preview](docs/preview.png)
+![preview](docs/preview-2.png)
 
 ## 注册 Github 账号
 请点击这里[注册 GitHub](https://github.com/join?ref_cta=Sign+up&ref_loc=header+logged+out&ref_page=%2F&source=header-home), 注册成功之后，登录 GitHub。  
